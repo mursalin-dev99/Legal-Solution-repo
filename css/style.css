@@ -86,7 +86,7 @@ img {
         navber css part ends here
 ==============================================*/
 /*============================================
-         css part start here
+        banner css part start here
 ==============================================*/
 #banner_part {
   width: 100%;
@@ -161,5 +161,77 @@ img {
 }
 
 /*============================================
-         css part ends here
+        banner css part ends here
+==============================================*/
+/*============================================
+        legal css part start here
+==============================================*/
+#legal_part {
+  width: 100%;
+  margin: 100px 0;
+}
+#legal_part .legal_body .common_head {
+  text-align: center;
+}
+#legal_part .legal_body .common_head h2 {
+  color: #414040;
+  font-size: 40PX;
+  font-weight: 700;
+  font-family: "EB Garamond", serif;
+  text-transform: capitalize;
+}
+#legal_part .legal_body .common_head p {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+}
+#legal_part .legal_body .legal_main {
+  margin-top: 100px;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .row .col-lg-4 {
+  border-right: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .row .col-lg-4 .card_item {
+  text-align: center;
+  padding: 50px;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .row .col-lg-4 .card_item h3 {
+  color: #414040;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "EB Garamond", serif;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .row .col-lg-4 .card_item p {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .row .col-lg-4 .card_item i {
+  padding-top: 30px;
+  font-size: 30px;
+  color: #B68C5A;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .row .col-lg-4:hover {
+  background: rgb(243, 243, 243);
+  background: linear-gradient(180deg, rgb(243, 243, 243) 0%, rgba(243, 241, 247, 0) 100%);
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .row .last_card {
+  border-right: none;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .second_row .col-lg-4 {
+  border-bottom: none;
+}
+#legal_part .legal_body .legal_main .legal_card .card_body .second_row .last_card {
+  border-right: none;
+}
+
+/*============================================
+        legal css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
