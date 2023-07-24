@@ -1,0 +1,109 @@
+/*============================================
+        client css part start here
+==============================================*/
+#client_part{
+    .client_body{
+        .common_head{
+            text-align: center;
+            h2{
+                color: #414040;
+                font-size: 40PX;
+                font-weight: 700;
+                font-family: 'EB Garamond', serif;
+                text-transform: capitalize;
+            }
+            p{
+                color: #707070;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Poppins', sans-serif;
+                padding-top: 20px;
+            }
+        }
+        .client_main{
+            margin-top: 50px;
+            height: 550px;
+            .client_bg{
+                background-image: url(../images/banner.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100%;
+                position: relative;
+                .client_overlay{
+                    position: absolute;
+                    background-image: url(../images/Rectangle-5.png);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100%;
+                    width: 100%;
+                    .client_body{
+                        .client_item{
+                            margin: 120px 0;
+                            text-align: center;
+                            .client_text{
+                                padding-top: 20px;
+                                text-align: center;
+                                h3{
+                                    color: #fff;
+                                    font-size: 24px;
+                                    font-weight: 800;
+                                    font-family: 'EB Garamond', serif;
+                                    text-transform: capitalize;
+                                }
+                                span{
+                                    color: #E7E7E7;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: 'Poppins', sans-serif;
+                                }
+                                p{
+                                    color: #E7E7E7;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: 'Poppins', sans-serif;
+                                    line-height: 1.5rem;
+                                    padding: 30px;
+                                }
+                                .client_btn{
+                                    display: flex;
+                                    justify-content: center;
+                                    form{
+                                        input{
+                                            height: 50px;
+                                            width: 500px;
+                                            padding-left: 15px;
+                                            border-radius: 8px;
+                                            border: none;
+                                        }
+                                    }
+                                    a{
+                                        color: #fff;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        font-family: 'Poppins', sans-serif;
+                                        text-transform: capitalize;
+                                        padding: 10px 20px;
+                                        margin-left: 15px;
+                                        background-color: #B68C5A;
+                                        border-radius: 5px;
+                                        border: 1px solid #B68C5A;
+                                        &:hover{
+                                            color: #B68C5A;
+                                            border-color: #B68C5A;
+                                            background: #fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        client css part ends here
+==============================================*/
