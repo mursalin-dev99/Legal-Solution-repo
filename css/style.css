@@ -43,4 +43,45 @@ img {
 
 /*============================================
         all typography css part ends here
+==============================================*/
+/*============================================
+        navber css part start here
+==============================================*/
+#navbar_part {
+  width: 100%;
+  padding: 20px 0;
+}
+#navbar_part .nav_body .navbar .collapse ul li a {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding: 0 15px;
+}
+#navbar_part .nav_body .navbar .collapse ul li a i {
+  padding-left: 5px;
+}
+#navbar_part .nav_body .navbar .collapse ul li a:hover {
+  color: #000;
+}
+#navbar_part .nav_body .navbar .collapse .nav_btn a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  background-color: #B68C5A;
+  border-radius: 5px;
+  border: 1px solid #B68C5A;
+}
+#navbar_part .nav_body .navbar .collapse .nav_btn a:hover {
+  color: #B68C5A;
+  border-color: #B68C5A;
+  background: #fff;
+}
+
+/*============================================
+        navber css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */

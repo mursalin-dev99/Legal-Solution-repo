@@ -1,0 +1,52 @@
+/*============================================
+        navber css part start here
+==============================================*/
+#navbar_part{
+    width: 100%;
+    padding: 20px 0;
+    .nav_body{
+        .navbar{
+            .collapse{
+                ul{
+                    li{
+                        a{
+                            color: #707070;
+                            font-size: 16px;
+                            font-weight: 400;
+                            font-family: 'Poppins', sans-serif;
+                            text-transform: capitalize;
+                            padding: 0 15px;
+                            i{
+                                padding-left: 5px;
+                            }
+                            &:hover{
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+                .nav_btn{
+                    a{
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: 'Poppins', sans-serif;
+                        text-transform: capitalize;
+                        padding: 15px 20px;
+                        background-color: #B68C5A;
+                        border-radius: 5px;
+                        border: 1px solid #B68C5A;
+                        &:hover{
+                            color: #B68C5A;
+                            border-color: #B68C5A;
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        navber css part ends here
+==============================================*/
