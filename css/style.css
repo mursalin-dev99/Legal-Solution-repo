@@ -336,4 +336,52 @@ img {
 
 /*============================================
         client css part ends here
+==============================================*/
+/*============================================
+        FAQ css part start here
+==============================================*/
+#faq_part {
+  width: 100%;
+  margin: 120px 0;
+}
+#faq_part .faq_body .common_head {
+  text-align: center;
+}
+#faq_part .faq_body .common_head h2 {
+  color: #414040;
+  font-size: 40PX;
+  font-weight: 700;
+  font-family: "EB Garamond", serif;
+  text-transform: capitalize;
+}
+#faq_part .faq_body .common_head p {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+}
+#faq_part .faq_body .faq_main {
+  margin-top: 50px;
+}
+#faq_part .faq_body .faq_main .row .col-lg-6 .accordion .accordion-item {
+  margin-top: 50px;
+  padding: 20px 0;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  background: #F3F3F3;
+}
+#faq_part .faq_body .faq_main .row .col-lg-6 .accordion .accordion-item .accordion-button {
+  background: #F3F3F3;
+}
+#faq_part .faq_body .faq_main .row .col-lg-6 .faq_image {
+  width: 100%;
+  text-align: right;
+}
+#faq_part .faq_body .faq_main .row .col-lg-6 .faq_image img {
+  width: 80%;
+}
+
+/*============================================
+        FAQ css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
