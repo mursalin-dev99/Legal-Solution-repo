@@ -1,0 +1,92 @@
+/*============================================
+        footer css part start here
+==============================================*/
+#footer_part{
+    width: 100%;
+    background: #111111;
+    margin-top: 120px;
+    .footer_body{
+        .footer_main{
+            padding: 100px 0;
+            .row{
+                .col-lg-3{
+                    .foot_img{
+                        padding-bottom: 15px;
+                    }
+                    h3{
+                        color: #fff;
+                        font-size: 24px;
+                        font-weight: 600;
+                        text-transform: capitalize;
+                        font-family: 'EB Garamond', serif;
+                        padding-bottom: 25px;
+                    }
+                    p{
+                        color: #CFCFCF;
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-family: 'Poppins', sans-serif;
+                        line-height: 1.5rem;
+                        padding-bottom: 20px;
+                    }
+                    .links{
+                        ul{
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    color: #CFCFCF;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: 'Poppins', sans-serif;
+                                    line-height: 1.5rem;
+                                    padding-bottom: 5px;
+                                    &:hover{
+                                        color: #B68C5A;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .foot_form{
+                        // padding-top: 25px;
+                        display: flex;
+                        input{
+                            width: 100%;
+                            height: 60px;
+                            padding-left: 20px;
+                            margin-bottom: 30px;
+                            color: #707070;
+                            background: #F3F3F3;
+                            border:  none;
+                            border-radius: 8px;
+                        }
+                        .foot_btn{
+                            margin-left: -15px;
+                            a{
+                                width: 100%;
+                                height: 60px;
+                                color: #fff;
+                                font-size: 16px;
+                                font-weight: 500;
+                                font-family: 'Poppins', sans-serif;
+                                text-transform: capitalize;
+                                padding: 15px 20px;
+                                background-color: #B68C5A;
+                                border-radius: 8px;
+                                border: 1px solid #B68C5A;
+                                &:hover{
+                                    color: #B68C5A;
+                                    border-color: #B68C5A;
+                                    background: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        footer css part ends here
+==============================================*/
