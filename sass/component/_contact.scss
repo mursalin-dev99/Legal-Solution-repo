@@ -1,0 +1,125 @@
+/*============================================
+        contact css part start here
+==============================================*/
+#contact_part{
+    width: 100%;
+    margin: 120px 0;
+    .contact_body{
+        .common_head{
+            text-align: center;
+            h2{
+                color: #414040;
+                font-size: 40PX;
+                font-weight: 700;
+                font-family: 'EB Garamond', serif;
+                text-transform: capitalize;
+            }
+            p{
+               color: #707070;
+               font-size: 16px;
+               font-weight: 400;
+               font-family: 'Poppins', sans-serif;
+               padding-top: 20px;
+            }
+        }
+        .contact_main{
+            margin-top: 100px;
+            .contact_card{
+                .card_body{
+                    .row{
+                        .col-lg-6{
+                            .address_card{
+                                .row{
+                                    .col-lg-6{
+                                        background: #F3F3F3;
+                                        border-right: 1px solid #E7E7E7;
+                                        border-bottom: 1px solid #E7E7E7;
+                                        .card_item{
+                                            text-align: center;
+                                            padding: 50px;
+                                            h3{
+                                                padding-top: 20px;
+                                                font-size: 24px;
+                                                font-weight: 600;
+                                                font-family: 'EB Garamond', serif;
+                                                text-transform: capitalize;
+                                                color: #414040;
+                                            }
+                                            p{
+                                                padding-top: 10px;
+                                                font-size: 16px;
+                                                font-weight: 400;
+                                                font-family: 'Poppins', sans-serif;
+                                                text-transform: capitalize;
+                                                color: #707070;
+                                            }
+                                        }
+                                        &:hover{
+                                            background: rgb(243,243,243);
+                                            background: linear-gradient(180deg, rgba(243,243,243,1) 0%, rgba(243,241,247,0) 100%); 
+                                        }
+                                    }
+                                    .last_child{
+                                        border-right: none;
+                                    }
+                                }
+                                .second_row{
+                                    .col-lg-6{
+                                        border-bottom: none;
+                                    }
+                                }
+                            }
+                            .contact_form{
+                                margin-left: 20px;
+                                .form_body{
+                                    input{
+                                        display: block;
+                                        width: 100%;
+                                        height: 60px;
+                                        padding-left: 20px;
+                                        margin-bottom: 30px;
+                                        color: #707070;
+                                        background: #F3F3F3;
+                                        border:  none;
+                                        border-radius: 8px;
+                                    }
+                                    textarea{
+                                        padding-left: 20px;
+                                        margin-bottom: 30px;
+                                        color: #707070;
+                                        background: #F3F3F3;
+                                        border:  none;
+                                        border-radius: 8px;
+                                    }
+                                    .contact_btn{
+                                        text-align: center;
+                                        a{
+                                            width: 100%;
+                                            color: #fff;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            font-family: 'Poppins', sans-serif;
+                                            text-transform: capitalize;
+                                            padding: 10px 20px;
+                                            background-color: #B68C5A;
+                                            border-radius: 5px;
+                                            border: 1px solid #B68C5A;
+                                            &:hover{
+                                                color: #B68C5A;
+                                                border-color: #B68C5A;
+                                                background: #fff;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        contact css part ends here
+==============================================*/
